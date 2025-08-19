@@ -472,6 +472,9 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 }
 
 /* subscribe */
+.order{
+    margin-left: auto;
+}
 .order-text{
     margin-bottom: 16px;
     font-weight: 500;
@@ -483,7 +486,7 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 .order-form{
     display: flex;
     gap: 24px;
-    margin-left: auto;
+    /* margin-left: auto; */
 }
 .order-email{
     width: 264px;
@@ -526,6 +529,7 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     margin-left: 16px;
     fill: #ffffff;
 }
+
 
 /* modal window */
 .backdrop{
