@@ -24,9 +24,9 @@
   <body>
     <header class="page-header">
       <div class="container header-container">
-        <nav class="main-nav">
+        <nav class="header-nav">
           <a class="logo header-logo" href="./index.html"
-            >Web<span class="logo-accent">Studio</span></a
+            >Web<span class="logo-part">Studio</span></a
           >
           <ul class="nav-list">
             <li class="nav-item">
@@ -51,6 +51,84 @@
             </li>
           </ul>
         </address>
+
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons2.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button class="modal-button" type="button">
+            <svg class="modal-icons-close" width="8" height="8">
+              <use href="./images/icons2.svg#icon-close"></use>
+            </svg>
+          </button>
+
+          <nav class="mobile-menu-nav">
+            <ul class="menu-nav-list">
+              <li class="menu-nav-item">
+                <a href="./index.html" class="menu-nav-link">Studio</a>
+              </li>
+              <li class="menu-nav-item">
+                <a href="" class="menu-nav-link">Portfolio</a>
+              </li>
+              <li class="menu-nav-item">
+                <a href="" class="menu-nav-link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+
+          <address class="mobile-menu-contacts">
+            <ul class="menu-cont-list">
+              <li>
+                <a href="tel:+110001111111" class="menu-cont-link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a class="menu-cont-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+
+          <div class="mobile-social-container">
+            <ul class="menu-team-icons">
+              <li class="menu-icons-list">
+                <a href="" target="_blank" class="menu-icons-link">
+                  <svg class="t-icons-f" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-icons-list">
+                <a href="" target="_blank" class="menu-icons-link">
+                  <svg class="t-icons-f" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-icons-list">
+                <a href="" target="_blank" class="menu-icons-link">
+                  <svg class="t-icons-f" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-icons-list">
+                <a href="" target="_blank" class="menu-icons-link">
+                  <svg class="t-icons-f" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -490,7 +568,7 @@
     </main>
 
     <!-- footer -->
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container footer-container">
         <div class="logo-paragraf">
           <a href="./index.html" class="footer-logo"
@@ -558,7 +636,7 @@
     </footer>
 
     <!-- modal window -->
-    <div class="backdrop is-open">
+    <div class="backdrop is-open hidden">
       <div class="modal">
         <button class="modal-button" type="button">
           <svg class="modal-icons-close" width="8" height="8">
